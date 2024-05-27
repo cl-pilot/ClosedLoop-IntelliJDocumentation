@@ -20,7 +20,17 @@ To successfully run the ClosedLoop IntelliJ plugin, the following dependencies a
 </dependency>
 ```
 
-### Mockito Dependencies
+### Lombork Dependency Update 
+```xml
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.24</version>
+  <scope>provided</scope>
+</dependency>
+```
+
+### Mockito Dependencies (Required)
 
 ```xml
 <!-- Mockito for JUnit Jupiter -->
@@ -46,7 +56,7 @@ To successfully run the ClosedLoop IntelliJ plugin, the following dependencies a
 </dependency>
 ```
 
-### JUnit 5 Dependencies
+### JUnit 5 Dependencies (Required)
 
 ```xml
 <!-- JUnit Jupiter API -->
